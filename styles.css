@@ -34,99 +34,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ff0000;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-section {
-    padding: 2rem;
-    margin-top: 20px;
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+.home-intro {
     text-align: center;
+    padding: 2rem;
 }
 
-section h1, section h2 {
+h1 {
     color: #ff0000;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 10px 0;
-}
-
-button {
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #e60000;
-}
-
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* About Section Styling */
-#about .about-details {
-    margin-top: 1rem;
-}
-
-/* Testimonials Section */
-#testimonials {
-    background-color: #333;
-}
-
-.testimonial {
-    background-color: #444;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.testimonial p {
-    font-style: italic;
-    color: #fff;
-}
-
-/* Contact Section Fix */
-#contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh; /* Makes the contact section fill 60% of the screen height */
-    background-color: #333;
-    margin-top: 20px;
-}
-
-#contact .content {
-    text-align: center;
-    width: 80%;
-    max-width: 600px;
-    padding: 1rem;
-}
-
-#contact-btn {
-    font-size: 18px;
-    padding: 12px 25px;
-    width: auto;
-    margin-top: 20px;
-}
-
-footer {
-    position: relative;
 }

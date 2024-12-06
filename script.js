@@ -1,4 +1,12 @@
 document.getElementById('contact-btn').addEventListener('click', function() {
-    // Replace with your Outlook email address
-    window.location.href = 'mailto:rico.borgdorff@outlook.com?subject=Contact from GearRev Ignition Crew+&body=Hello, I have a question about the app...';
+    // Email addresses to include in the "To" field
+    const emails = ['rico.borgdorff@outlook.com', 'ameyasgupta@gmail.com'];
+    const subject = 'Contact from GearRev Ignition Crew+';
+    const body = 'Hello, I have a question about the app...';
+
+    // Create a mailto link with multiple recipients
+    const mailtoLink = `mailto:${emails.join(',')}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open the mailto link
+    window.location.href = mailtoLink;
 });
